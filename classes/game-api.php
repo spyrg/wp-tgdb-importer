@@ -11,7 +11,7 @@ class gameDB{
 
     private $timeout = 30;
 
-    protected $apiUrl = 'http://legacy.thegamesdb.net/api/';
+    protected $apiUrl = 'https://api.thegamesdb.net/';
     protected $game;
 
     public function __construct(){
